@@ -1,12 +1,45 @@
-# LazyVim / Neovim cache
+# Neovim / LazyVim
+local-share/
 lazy-lock.json
+lazyvim.json
+lazy-lock.json
+.cache/
+*.log
 
-# Backup and swap files
+# compiled/vim swap/undo/backup
 *.swp
 *.swo
+*.swn
+*.un~
 *.bak
+*~.nvim
+session.vim
 
-# Session or temp files
-session/*
-tmp/*
+# OS
+.DS_Store
+Thumbs.db
+
+# editor/IDE
+.vscode/
+.idea/
+
+# python/pynvim user stuff
+__pycache__/
+*.pyc
+.python-version
+
+# node
+node_modules/
+
+# package manager state
+.packages
+
+# user secrets or credentials
+.env
+*.secret
+*.key
+*.pem
+
+# nix / system (if you have local build artifacts)
+result/
 
