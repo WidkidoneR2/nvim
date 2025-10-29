@@ -1,8 +1,12 @@
-tt.*
-.tests
-doc/tags
-debug
-.repro
-foo.*
-*.log
-data
+# LazyVim / Neovim cache
+lazy-lock.json
+
+# Backup and swap files
+*.swp
+*.swo
+*.bak
+
+# Session or temp files
+session/*
+tmp/*
+
